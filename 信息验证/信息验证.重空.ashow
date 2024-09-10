@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <Setting>
+    <重空名称/>
+    <输出条件>开立存折（开户种类=本外币一本通，且交易金额＞0时）</输出条件>
+    <打印提示>正在打印凭证（打印机动画）</打印提示>
+    <备注>如果客户未存款，则不打印日期、摘要、币种、钞汇、存/取款金额、余额、操作员</备注>
+    <规则>[]</规则>
+    <表单规则>[]</表单规则>
+  </Setting>
+  <Content>
+    <Label id="Label1" name="账号" Bold="false" Fontsize="14" TextAlign="Align_Left" rule="不打印标签但打印内容" Width="30" Height="5" Left="24" Top="24"/>
+    <Label id="Label2" name="户名" Bold="false" Fontsize="14" TextAlign="Align_Left" rule="不打印标签但打印内容" Width="30" Height="5" Left="81" Top="24"/>
+    <Label id="Label4" name="存折册号" Bold="false" Fontsize="14" TextAlign="Align_Left" rule="不打印标签但打印内容" Width="30" Height="5" Left="24" Top="37"/>
+    <Label id="Label3" name="支取方式" Bold="false" Fontsize="14" TextAlign="Align_Left" rule="不打印标签但打印内容" Width="30" Height="5" Left="81" Top="37"/>
+    <Label id="Label6" name="标志" Bold="false" Fontsize="14" TextAlign="Align_Left" rule="不打印标签但打印内容" Width="30" Height="5" Left="24" Top="50"/>
+    <Label id="Label5" name="存款种类" Bold="false" Fontsize="14" TextAlign="Align_Left" rule="不打印标签但打印内容" Width="30" Height="5" Left="81" Top="50"/>
+    <Label id="Label8" name="签发日期" Bold="false" Fontsize="14" TextAlign="Align_Left" rule="不打印标签但打印内容" Width="30" Height="5" Left="24" Top="64"/>
+    <Table description="不打印标签但打印内容" id="Table1" row="3" col="7" heightTemp="[10,10,10]" widthTemp="[15,15,15,15,15,15,15]" Width="105" Height="30" Left="18" Top="75" IDE_Equals_H="true" IDE_Equals_W="true">
+      <Tr Height="10" Width="26.25">
+        <Td name="日期" rowIndex="0" colIndex="0" Width="15" Height="10"/>
+        <Td name="摘要" rowIndex="0" colIndex="1" Width="15" Height="10"/>
+        <Td name="币种" rowIndex="0" colIndex="2" Width="15" Height="10"/>
+        <Td name="钞汇" rowIndex="0" colIndex="3" Width="15" Height="10"/>
+        <Td name="存/取款金额" rowIndex="0" colIndex="4" Width="15" Height="10"/>
+        <Td name="余额" rowIndex="0" colIndex="5" Width="15" Height="10"/>
+        <Td name="操作员" rowIndex="0" colIndex="6" Width="15" Height="10"/>
+      </Tr>
+      <Tr Height="10" Width="26.25">
+        <Td name="" rowIndex="1" colIndex="0" Width="15" Height="10"/>
+        <Td name="" rowIndex="1" colIndex="1" Width="15" Height="10"/>
+        <Td name="" rowIndex="1" colIndex="2" Width="15" Height="10"/>
+        <Td name="" rowIndex="1" colIndex="3" Width="15" Height="10"/>
+        <Td name="" rowIndex="1" colIndex="4" Width="15" Height="10"/>
+        <Td name="" rowIndex="1" colIndex="5" Width="15" Height="10"/>
+        <Td name="" rowIndex="1" colIndex="6" Width="15" Height="10"/>
+      </Tr>
+      <Tr Height="10" Width="26.25">
+        <Td name="" rowIndex="2" colIndex="0" Width="15" Height="10"/>
+        <Td name="" rowIndex="2" colIndex="1" Width="15" Height="10"/>
+        <Td name="" rowIndex="2" colIndex="2" Width="15" Height="10"/>
+        <Td name="" rowIndex="2" colIndex="3" Width="15" Height="10"/>
+        <Td name="" rowIndex="2" colIndex="4" Width="15" Height="10"/>
+        <Td name="" rowIndex="2" colIndex="5" Width="15" Height="10"/>
+        <Td name="" rowIndex="2" colIndex="6" Width="15" Height="10"/>
+      </Tr>
+    </Table>
+    <Image id="Image1" Src="" Width="40" Height="30" Left="24" Top="147"/>
+  </Content>
+</Root>

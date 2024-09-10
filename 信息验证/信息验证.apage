@@ -1,0 +1,585 @@
+{
+  "name": "",
+  "children": [
+    {
+      "type": "widget",
+      "component": "input",
+      "data": {
+        "label": "收款行行号",
+        "modelData": "",
+        "inputLimit": "",
+        "showLabel": true,
+        "labelAlign": "right",
+        "row": 1,
+        "placeholder": "",
+        "min": 0,
+        "max": 0,
+        "contentType": "text",
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "100%",
+        "appendButton": true,
+        "appendButtonLabel": "收款行行号查询",
+        "appendSelect": false,
+        "appendSelectOptions": [],
+        "required": true,
+        "cloneSource": "行名行号"
+      },
+      "rules": {},
+      "id": "1710985775790_2"
+    },
+    {
+      "type": "widget",
+      "component": "date",
+      "data": {
+        "label": "收款行行名",
+        "modelData": "",
+        "inputLimit": "",
+        "showLabel": true,
+        "labelAlign": "right",
+        "format": "yyyy-mm-dd",
+        "Earliest": "",
+        "latest": "",
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "required": true,
+        "cloneSource": "行名行号"
+      },
+      "rules": {},
+      "id": "1710985775790_4"
+    },
+    {
+      "type": "widget",
+      "component": "select",
+      "data": {
+        "label": "证件类型",
+        "modelData": "客户信息:证件类型",
+        "inputLimit": "",
+        "selectMode": "single",
+        "showLabel": true,
+        "labelAlign": "right",
+        "placeholder": "",
+        "options": [
+          {
+            "label": "居民身份证-1"
+          },
+          {
+            "label": "临时身份证-2"
+          },
+          {
+            "label": "户口薄-3"
+          },
+          {
+            "label": "中国护照-4"
+          },
+          {
+            "label": "外国护照-5"
+          },
+          {
+            "label": "港澳居民来往内地通行证-6"
+          },
+          {
+            "label": "港澳居民居住证-7"
+          },
+          {
+            "label": "台湾居民来往大陆通行证-8"
+          },
+          {
+            "label": "台湾居民居住证-9"
+          },
+          {
+            "label": "武警士兵证-10"
+          },
+          {
+            "label": "军官证-11"
+          },
+          {
+            "label": "外国人永久居留身份证-12"
+          }
+        ],
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "required": true,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_2"
+      },
+      "rules": {},
+      "id": "1710985793394_2"
+    },
+    {
+      "type": "widget",
+      "component": "input",
+      "data": {
+        "label": "证件号码",
+        "modelData": "",
+        "inputLimit": "",
+        "showLabel": true,
+        "labelAlign": "right",
+        "row": 1,
+        "placeholder": "",
+        "min": 0,
+        "max": 0,
+        "contentType": "text",
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "appendButton": false,
+        "appendButtonLabel": "",
+        "appendSelect": false,
+        "appendSelectOptions": [],
+        "required": true,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_3"
+      },
+      "rules": {},
+      "id": "1710985793394_3"
+    },
+    {
+      "type": "widget",
+      "component": "input",
+      "data": {
+        "label": "姓名",
+        "modelData": "",
+        "inputLimit": "",
+        "showLabel": true,
+        "labelAlign": "right",
+        "row": 1,
+        "placeholder": "",
+        "min": 0,
+        "max": 0,
+        "contentType": "text",
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "appendButton": false,
+        "appendButtonLabel": "",
+        "appendSelect": false,
+        "appendSelectOptions": [],
+        "required": true,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_4"
+      },
+      "rules": {},
+      "id": "1710985793394_4"
+    },
+    {
+      "type": "widget",
+      "component": "select",
+      "data": {
+        "label": "性别",
+        "modelData": "",
+        "inputLimit": "",
+        "selectMode": "single",
+        "showLabel": true,
+        "labelAlign": "right",
+        "placeholder": "",
+        "options": [
+          {
+            "label": "男-1"
+          },
+          {
+            "label": "女-2"
+          }
+        ],
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "required": true,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_5"
+      },
+      "rules": {},
+      "id": "1710985793394_5"
+    },
+    {
+      "type": "widget",
+      "component": "date",
+      "data": {
+        "label": "证件有效期",
+        "modelData": "",
+        "inputLimit": "",
+        "showLabel": true,
+        "labelAlign": "right",
+        "format": "yyyy-mm-dd",
+        "Earliest": "",
+        "latest": "",
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "required": true,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_6"
+      },
+      "rules": {},
+      "id": "1710985793394_6"
+    },
+    {
+      "type": "widget",
+      "component": "select",
+      "data": {
+        "label": "职业",
+        "modelData": "",
+        "inputLimit": "",
+        "selectMode": "single",
+        "showLabel": true,
+        "labelAlign": "right",
+        "placeholder": "",
+        "options": [],
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "required": true,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_8"
+      },
+      "rules": {},
+      "id": "1710985793394_8"
+    },
+    {
+      "type": "widget",
+      "component": "input",
+      "data": {
+        "label": "联系电话",
+        "modelData": "",
+        "inputLimit": "",
+        "showLabel": true,
+        "labelAlign": "right",
+        "row": 1,
+        "placeholder": "",
+        "min": 0,
+        "max": 0,
+        "contentType": "text",
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "appendButton": false,
+        "appendButtonLabel": "",
+        "appendSelect": false,
+        "appendSelectOptions": [],
+        "required": true,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_9"
+      },
+      "rules": {},
+      "id": "1710985793394_9"
+    },
+    {
+      "type": "widget",
+      "component": "input",
+      "data": {
+        "label": "联系地址",
+        "modelData": "",
+        "inputLimit": "",
+        "showLabel": true,
+        "labelAlign": "right",
+        "row": 1,
+        "placeholder": "",
+        "min": 0,
+        "max": 0,
+        "contentType": "text",
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "appendButton": false,
+        "appendButtonLabel": "",
+        "appendSelect": false,
+        "appendSelectOptions": [],
+        "required": true,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_10"
+      },
+      "rules": {},
+      "id": "1710985793394_10"
+    },
+    {
+      "type": "widget",
+      "component": "input",
+      "data": {
+        "label": "经办关系",
+        "modelData": "",
+        "inputLimit": "",
+        "showLabel": true,
+        "labelAlign": "right",
+        "row": 1,
+        "placeholder": "",
+        "min": 0,
+        "max": 0,
+        "contentType": "text",
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "appendButton": false,
+        "appendButtonLabel": "",
+        "appendSelect": false,
+        "appendSelectOptions": [],
+        "required": false,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_12"
+      },
+      "rules": {},
+      "id": "1710985793394_12"
+    },
+    {
+      "type": "widget",
+      "component": "input",
+      "data": {
+        "label": "经办原因",
+        "modelData": "",
+        "inputLimit": "",
+        "showLabel": true,
+        "labelAlign": "right",
+        "row": 1,
+        "placeholder": "",
+        "min": 0,
+        "max": 0,
+        "contentType": "text",
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "appendButton": false,
+        "appendButtonLabel": "",
+        "appendSelect": false,
+        "appendSelectOptions": [],
+        "required": false,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_14"
+      },
+      "rules": {},
+      "id": "1710985793394_14"
+    },
+    {
+      "type": "container",
+      "component": "button-group",
+      "data": {
+        "label": "按钮组",
+        "width": "100%",
+        "align": "center",
+        "accompany": "",
+        "custom": "",
+        "modelData": "",
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_15"
+      },
+      "children": [
+        {
+          "type": "widget",
+          "component": "button",
+          "data": {
+            "label": "确认",
+            "type": "primary",
+            "accompany": "",
+            "custom": "",
+            "size": "normal",
+            "padding": 0,
+            "margin": 0,
+            "modelData": "",
+            "width": "50%",
+            "cloneSource": "办理人",
+            "cloneId": "1697769155432_16"
+          },
+          "rules": {},
+          "id": "1710985793394_16"
+        },
+        {
+          "type": "widget",
+          "component": "button",
+          "data": {
+            "label": "取消",
+            "type": "text",
+            "accompany": "",
+            "custom": "",
+            "size": "normal",
+            "padding": 0,
+            "margin": 0,
+            "modelData": "",
+            "width": "50%",
+            "cloneSource": "办理人",
+            "cloneId": "1697769155432_17"
+          },
+          "rules": {},
+          "id": "1710985793394_17"
+        }
+      ],
+      "rules": {},
+      "id": "1710985793394_15"
+    },
+    {
+      "type": "widget",
+      "component": "select",
+      "data": {
+        "label": "经办关系",
+        "modelData": "",
+        "inputLimit": "",
+        "selectMode": "single",
+        "showLabel": true,
+        "labelAlign": "right",
+        "placeholder": "",
+        "options": [
+          {
+            "label": "直系亲属（配偶、子女、父母）-1"
+          },
+          {
+            "label": "旁系亲属-2"
+          },
+          {
+            "label": "同事-3"
+          },
+          {
+            "label": "同学-4"
+          },
+          {
+            "label": "朋友-5"
+          },
+          {
+            "label": "其他-6"
+          }
+        ],
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "required": true,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_11"
+      },
+      "rules": {},
+      "id": "1710985793394_11"
+    },
+    {
+      "type": "widget",
+      "component": "select",
+      "data": {
+        "label": "经办原因",
+        "modelData": "",
+        "inputLimit": "",
+        "selectMode": "single",
+        "showLabel": true,
+        "labelAlign": "right",
+        "placeholder": "",
+        "options": [
+          {
+            "label": "存款人死亡，代理人持合法文书-1"
+          },
+          {
+            "label": "存款人委托他人办理，提供《XXX银行个人业务代理关系真实性核查表》-2"
+          },
+          {
+            "label": "存款人意识不清，代理人持合法文书-3"
+          },
+          {
+            "label": "普通代理（默认）-4"
+          },
+          {
+            "label": "其他，自行录入信息-5"
+          }
+        ],
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "required": true,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_13"
+      },
+      "rules": {},
+      "id": "1710985793394_13"
+    },
+    {
+      "id": "1725248368322_1",
+      "type": "widget",
+      "component": "select",
+      "data": {
+        "label": "下拉框",
+        "modelData": "",
+        "inputLimit": "",
+        "selectMode": "single",
+        "showLabel": true,
+        "labelAlign": "right",
+        "placeholder": "",
+        "options": [],
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%"
+      },
+      "rules": {}
+    },
+    {
+      "id": "1725248369490_1",
+      "type": "widget",
+      "component": "date",
+      "data": {
+        "label": "日期",
+        "modelData": "",
+        "inputLimit": "",
+        "showLabel": true,
+        "labelAlign": "right",
+        "format": "yyyy-mm-dd",
+        "Earliest": "",
+        "latest": "",
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%"
+      },
+      "rules": {}
+    },
+    {
+      "type": "widget",
+      "component": "date",
+      "data": {
+        "label": "证件失效日期",
+        "modelData": "",
+        "inputLimit": "",
+        "showLabel": true,
+        "labelAlign": "right",
+        "format": "yyyy-mm-dd",
+        "Earliest": "",
+        "latest": "",
+        "accompany": "",
+        "custom": "",
+        "padding": 0,
+        "margin": 0,
+        "width": "50%",
+        "required": true,
+        "cloneSource": "办理人",
+        "cloneId": "1697769155432_7"
+      },
+      "rules": {},
+      "id": "1710985793394_7"
+    }
+  ],
+  "rules": {},
+  "description": "",
+  "id": "1710985766486_1"
+}
